@@ -31,6 +31,10 @@ GEM
     annotate (2.5.0)
       rake
     arel (3.0.2)
+<<<<<<< HEAD
+=======
+    bcrypt-ruby (3.0.1-x86-mingw32)
+>>>>>>> finish-6
     bootstrap-sass (2.1.0.0)
     builder (3.0.4)
     capybara (1.1.2)
@@ -53,7 +57,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffi (1.1.5-x86-mingw32)
+    ffi (1.2.0-x86-mingw32)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -61,14 +65,23 @@ GEM
       railties (>= 3.2.0, < 5.0)
       thor (~> 0.14)
     json (1.7.5)
+<<<<<<< HEAD
     libwebsocket (0.1.6)
+=======
+    libwebsocket (0.1.7.1)
+      addressable
+>>>>>>> finish-6
       websocket
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.19)
+<<<<<<< HEAD
     multi_json (1.3.7)
+=======
+    multi_json (1.4.0)
+>>>>>>> finish-6
     nokogiri (1.5.5-x86-mingw32)
     pg (0.12.2-x86-mingw32)
     polyglot (0.3.3)
@@ -121,7 +134,11 @@ GEM
       libwebsocket (~> 0.1.3)
       multi_json (~> 1.0)
       rubyzip
+<<<<<<< HEAD
     sprockets (2.2.1)
+=======
+    sprockets (2.2.2)
+>>>>>>> finish-6
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -136,7 +153,11 @@ GEM
     uglifier (1.2.3)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
+<<<<<<< HEAD
     websocket (1.0.3)
+=======
+    websocket (1.0.4)
+>>>>>>> finish-6
     xpath (0.1.4)
       nokogiri (~> 1.3)
 
@@ -145,6 +166,10 @@ PLATFORMS
 
 DEPENDENCIES
   annotate (= 2.5.0)
+<<<<<<< HEAD
+=======
+  bcrypt-ruby (= 3.0.1)
+>>>>>>> finish-6
   bootstrap-sass (= 2.1)
   capybara (= 1.1.2)
   coffee-rails (= 3.2.2)
