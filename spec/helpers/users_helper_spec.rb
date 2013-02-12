@@ -13,3 +13,5 @@
 #describe UsersHelper do
   #pending "add some examples to (or delete) #{__FILE__}"
 #
+require 'factory_girl'
+Factory.find_definitions
