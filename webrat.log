@@ -1,0 +1,17 @@
+# Logfile created on 2013-03-05 10:32:34 -0500 by logger.rb/31641
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"person_1@example.com", "password"=>"foobar"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1"}
+REQUESTING PAGE: POST /microposts with {"utf8"=>"✓", "micropost"=>{"content"=>"Lorem ipsum"}, "commit"=>"Post"} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/microposts"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"person_2@example.com", "password"=>"foobar"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1"}
+REQUESTING PAGE: POST /microposts with {"utf8"=>"✓", "micropost"=>{"content"=>""}, "commit"=>"Post"} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"person_3@example.com", "password"=>"foobar"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1"}
+REQUESTING PAGE: POST /microposts with {"utf8"=>"✓", "micropost"=>{"content"=>""}, "commit"=>"Post"} and HTTP headers {"HTTP_REFERER"=>"/"}
